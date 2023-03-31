@@ -1,0 +1,20 @@
+.navbar{
+    position: sticky;
+    top:0px;
+    z-index: 1;
+}
+.cour1:hover{
+    transform: scaleY(1.01);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.clrbtn1:hover{
+    background-color:white ;
+
+}
+@media(max-width:1000px){
+    .carousel-caption{
+        font-size: smaller;
+    }
+
+}
