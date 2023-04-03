@@ -12,9 +12,32 @@
     background-color:white ;
 
 }
-@media(max-width:1000px){
-    .carousel-caption{
-        font-size: smaller;
+.btnlst:hover {
+   
+    background-color: #5e068a ;
+    color: white;
+}
+.python:hover{
+    transform: scaleY(1.01);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.test:hover{
+    transform: scaleY(1.01);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.mearn:hover{
+    transform: scaleY(1.01);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media(max-width:1200px){
+#demo1{
+    font-size: 30px;        
     }
+    
 
+}
+@media(max-width:500px)
+{
+    .carousel-caption{
+    }
 }
